@@ -14,11 +14,11 @@ public class Main {
         Book book2 = new Book("Necronomicon", author2, 730);
 
         System.out.println("demonolatry.title = " + book1.getTitle());
-        System.out.println("demonolatry.authorName = " + book1.getAuthorName());
+        System.out.println("demonolatry.authorName : " + book1.getAuthor());
         System.out.println("demonolatry.yearPublishing = " + book1.getYearPublishing()+" AD");
         book1.setYearPublishing(1666);
         System.out.println("necronomicon.title = " + book2.getTitle());
-        System.out.println("necronomicon.authorName = " + book2.getAuthorName());
+        System.out.println("necronomicon.authorName : " + book2.getAuthor());
         System.out.println("necronomicon.yearPublishing = " + book2.getYearPublishing()+" AD");
         book2.setYearPublishing(666);
         System.out.println("demonolatry.getYearPublishing() = " + book1.getYearPublishing()+" AD");

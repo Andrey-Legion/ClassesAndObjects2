@@ -9,13 +9,13 @@ public class Author {
             this.surname = surname;
         }
 
-        public String getname() {
+        /*public String getName() {
             return name;
         }
 
-        public String getsurname() {
+        public String getSurname() {
             return surname;
-        }
+        }*/
 
         @Override
         public boolean equals(Object o) {
@@ -33,8 +33,8 @@ public class Author {
         @Override
         public String toString() {
             return
-                    "name=" + name +
-                            " surname=" + surname;
+                    "name = " + name +
+                            "; surname = " + surname;
         }
 
 }
